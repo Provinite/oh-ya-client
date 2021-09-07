@@ -1,0 +1,26 @@
+{
+  "name": "oh-ya-client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Collin Driscoll <provinite@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel ./src/index.html"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/react": "^17.0.20",
+    "@types/react-dom": "^17.0.9",
+    "prettier": "^2.3.2",
+    "sass": "^1.39.0",
+    "type-fest": "^2.2.0",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.3",
+    "parcel-bundler": "^1.12.5",
+    "purecss": "^2.0.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

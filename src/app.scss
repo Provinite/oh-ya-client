@@ -1,0 +1,49 @@
+@use "colors";
+
+#app {
+  div.header-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: colors.$dark-blue;
+
+    h1 {
+      text-align: center;
+    }
+  }
+  div.inventory-section {
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+    background-color: colors.$pink;
+    h2 {
+      text-align: center;
+    }
+    table {
+      margin: 0 auto;
+      background-color: #eee;
+    }
+  }
+  div.recipe-section {
+    background-color: colors.$light-blue;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    h2 {
+      text-align: center;
+    }
+  }
+  div.sales-section {
+    background-color: colors.$dark-blue;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    h2 {
+      text-align: center;
+    }
+    table {
+      margin: 0 auto;
+      background-color: #eee;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+@use "../colors";
+
+.recipe-card {
+  width: 275px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1rem;
+  background-color: colors.$green;
+  & &--title {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    display: block;
+  }
+  & &--quantity {
+    font-size: 1rem;
+  }
+  & &--input {
+    display: block;
+  }
+  & &--cook-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+  }
+  margin: 1rem;
+}
